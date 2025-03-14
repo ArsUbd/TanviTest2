@@ -91,7 +91,7 @@ public void emptyRecordInCart() throws InterruptedException {
 	driver.findElement(By.xpath(xpath_EmptyCartButton)).click();
 	Thread.sleep(5000);
 	driver.findElement(By.xpath(xpath_EmptyCartForSureButton)).click();
-	Thread.sleep(5000);
+	Thread.sleep(6000);
 }
 
 public void validateEmptyCart() {
